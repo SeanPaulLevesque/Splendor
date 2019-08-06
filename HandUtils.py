@@ -69,12 +69,18 @@ def decide_coins(player, boardstate):
 
     coins_to_take = [0, 0, 0, 0, 0]
     coins = 0
-    #Randomize coins
-    while coins < 3:
+
+    #choose between 3 different coins or 2 of the same coins
+    ThreeOrTwo = random.randrange(2)
+    if ThreeOrTwo:
+        while coins < 3:
+            rng = random.randrange(5)
+            if coins_to_take[rng] == 0:
+                coins_to_take[rng] = 1
+                coins = coins + 1
+    else:
         rng = random.randrange(5)
-        if coins_to_take[rng] == 0:
-            coins_to_take[rng] = 1
-            coins = coins + 1
+        coins_to_take[rng] = 2
 
     return coins_to_take
 
@@ -154,6 +160,7 @@ def get_row_card_from_id(id, boardstate):
 
 
 def decide_turn(player, boardstate):
+
     rng = random.randrange(2)
     take_card = False
 

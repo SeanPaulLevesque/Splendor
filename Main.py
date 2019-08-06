@@ -40,8 +40,18 @@ saved = copy.deepcopy(playstate)
 while 1:
     while playstate.player.points < 15:
 
+        quit = False
         # decide if you are buying a card or drawing coins
         take_card = Hand.decide_turn(playstate.player, playstate.boardstate)
+
+        if Hand.get_coin_num(playstate.player) > 7:
+            if Hand.can_afford_any_card(playstate.player, playstate.boardstate):
+                take_card = True
+            else:
+                # quit game
+                quit = True
+                break
+
 
         if take_card:
             # Decide which card you want
@@ -66,17 +76,17 @@ while 1:
         turns = turns + 1
     playstate.turns = turns
     turns = 0
+    if not quit:
+        json_object = jsonpickle.encode(playstate)
 
-    json_object = jsonpickle.encode(playstate)
+        with open('GameStates\data' + str(iterations) + '.txt', 'w') as outfile:
+            json.dump(json_object, outfile)
 
-    with open('GameStates\data' + str(iterations) + '.txt', 'w') as outfile:
-        json.dump(json_object, outfile)
+        iterations = iterations + 1
 
-    iterations = iterations + 1
-
+    # restore playstate
     playstate = copy.deepcopy(saved)
 
-    #restore playstate
     if iterations > 1000:
         break
 
