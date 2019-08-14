@@ -18,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="1512">
               <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HandUtils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="1152">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
@@ -39,8 +39,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Analyze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="32" column="133" lean-forward="true" selection-start-line="32" selection-start-column="133" selection-end-line="32" selection-end-column="133" />
+            <state relative-caret-position="100">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5544">
+              <caret line="309" selection-start-line="309" selection-end-line="309" />
             </state>
           </provider>
         </entry>
@@ -124,10 +133,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2497" />
-    <option name="y" value="166" />
-    <option name="width" value="1551" />
-    <option name="height" value="848" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,23 +144,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Splendor" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\slevesqu\PycharmProjects\Spledor" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Splendor" type="b2602c69:ProjectViewProjectNode" />
               <item name="Splendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Splendor" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\slevesqu\PycharmProjects\Spledor" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -291,11 +300,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.Main" />
-      <item itemvalue="Python.buildDecks" />
-      <item itemvalue="Python.Main (1)" />
       <item itemvalue="Python.Analyze" />
+      <item itemvalue="Python.Main (1)" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.buildDecks" />
     </list>
     <recent_temporary>
       <list>
@@ -324,13 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565115628298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated game algo&#10;-added the option to pull 2 coins of the same color&#10;-restricted purse to 10 coins&#10;-created abort condition for when you can no longer pull coins and still cannot afford a card&#10;&#10;improved analyze routine &#10;-Added plots &#10;&#10;generated new dataset based on new algo">
+      <created>1565352626066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565352626066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-248" width="2576" height="1426" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.10850556" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.18565683" />
       <window_info id="Structure" order="1" sideWeight="0.50281423" side_tool="true" weight="0.08227345" />
       <window_info id="Favorites" order="2" sideWeight="0.50476193" side_tool="true" weight="0.12466488" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49960256" weight="0.32946634" />
@@ -339,11 +356,11 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.52680963" side_tool="true" weight="0.3232792" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49960256" weight="0.5305491" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.47257552" visible="true" weight="0.3085847" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4725201" weight="0.53413653" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49960256" weight="0.32946634" />
-      <window_info active="true" anchor="bottom" x="0" y="0" width="1536" height="834" id="Run" order="10" sideWeight="0.52742445" side_tool="true" visible="true" weight="0.3085847" />
+      <window_info anchor="bottom" x="0" y="0" width="1536" height="834" id="Run" order="10" sideWeight="0.5274799" side_tool="true" weight="0.53413653" />
       <window_info anchor="right" id="R Packages" order="0" />
       <window_info anchor="right" id="R Graphics" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -386,10 +403,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Analyze.py</url>
-          <line>29</line>
+          <line>59</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -460,9 +484,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/plotly/graph_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="5544">
           <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
@@ -498,27 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HandUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analyze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="133" lean-forward="true" selection-start-line="32" selection-start-column="133" selection-end-line="32" selection-end-column="133" />
+        <state relative-caret-position="100">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
